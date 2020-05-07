@@ -1,0 +1,65 @@
+Welcome = "Welcome to The Anatomy of Typography! Tap any letter to begin."
+AnatomyMode = "Anatomy Mode"
+TypographyMode = "Typography Mode"
+
+# anatomy cues
+ampersand
+aperture
+apex
+arc
+arm
+ascender
+ascenderheight
+axis
+ballterminal
+baseline
+bowl
+capheight
+crossbar
+crotch
+descenderline
+verticalbar
+ear
+eye
+finial
+foot
+hairlinestroke
+horizontalbar
+joint
+leg
+ligature
+lobe
+loop
+neck
+null
+overhang
+serif
+shoulder
+spine
+stem
+subscript
+superscript
+swash
+tail
+terminal
+tie
+tittle
+vertex
+verticalbar
+xheight
+
+# typography cues
+72 = Bodoni; a neoclassical serif designed by Giambattista Bodoni in the late eighteenth century.
+BAG = Berthold Akzidenz Grotesk; is a grotesque sans-serif typeface created by Berthold Type Foundry released in 1898.
+BAS = Baskerville; a transitional serif typeface designed by John Baskerville in the 1750s.
+BRU = Brush Script; is an informal script typeface designed by Robert E. Smith for American Type Founders in 1942.
+FU = Futura; is a geometric sans-serif typeface designed by Paul Renner released in 1927.
+GO = Goudy; an old-style serif typeface created by Frederic W. Goudy for American Type Founders in 1915.
+GS = Gill Sans; is a humanist sans-serif typeface designed by Eric Gill and released by Monotype from 1928 onwards.
+GUL = Guldenbreiner; is a display typeface by David Fesl and Anna Iberer designed in 2018.
+HE = Helvetica; is a neo-grotesque sans-serif typeface created by Max Miedinger developed in 1957.
+RO = Rockwell; a slab serif typeface designed by the Monotype Corporation in 1934.
+SN = Snell Roundhand; is a formal script typeface designed by Matthew Carter released in 1965.
+
+#other
+null = empty audio file
