@@ -1,0 +1,297 @@
+product-id: 921
+init: $modus:=1
+welcome: Welcome
+scripts:
+
+#modes
+    9200:
+    - $modus==1? $modus:=2 P(AnatomyMode)
+    - $modus==2? $modus:=1 P(TypographyMode)
+
+#1 E
+    9201:
+    - $modus==1? P(ascenderheight)
+    - $modus==2? P(null)
+    9202:
+    - $modus==1? P(capheight)
+    - $modus==2? P(null)
+    9203:
+    - $modus==1? P(xheight)
+    - $modus==2? P(null)
+    9204:
+    - $modus==1? P(baseline)
+    - $modus==2? P(null)
+    9205:
+    - $modus==1? P(descenderline)
+    - $modus==2? P(null)
+    9206:
+    - $modus==1? P(arm)
+    - $modus==2? P(RO)
+    9207:
+    - $modus==1? P(tie)
+    - $modus==2? P(RO)
+    9208:
+    - $modus==1? P(horizontalbar)
+    - $modus==2? P(RO)
+    9209:
+    - $modus==1? P(null)
+    - $modus==2? P(RO)
+
+#2 FR
+    9210:
+    - $modus==1? P(stem)
+    - $modus==2? P(BAG)
+    9211:
+    - $modus==1? P(null)
+    - $modus==2? P(BAG)
+    9212:
+    - $modus==1? P(bowl)
+    - $modus==2? P(GS)
+    9213:
+    - $modus==1? P(leg)
+    - $modus==2? P(GS)
+    9214:
+    - $modus==1? P(null)
+    - $modus==2? P(GS)
+
+#3 TQA
+    9215:
+    - $modus==1? P(crossbar)
+    - $modus==2? P(RO)
+    9216:
+    - $modus==1? P(foot)
+    - $modus==2? P(RO)
+    9217:
+    - $modus==1? P(null)
+    - $modus==2? P(RO)
+    9218:
+    - $modus==1? P(tail)
+    - $modus==2? P(RO)
+    9219:
+    - $modus==1? P(null)
+    - $modus==2? P(RO)
+    9220:
+    - $modus==1? P(serif)
+    - $modus==2? P(RO)
+    9221:
+    - $modus==1? P(null)
+    - $modus==2? P(RO)
+
+#4 vhfg
+    9222:
+    - $modus==1? P(vertex)
+    - $modus==2? P(72)
+    9223:
+    - $modus==1? P(overhang)
+    - $modus==2? P(72)
+    9224:
+    - $modus==1? P(null)
+    - $modus==2? P(72)
+    9225:
+    - $modus==1? P(shoulder)
+    - $modus==2? P(72)
+    9226:
+    - $modus==1? P(null)
+    - $modus==2? P(72)
+    9227:
+    - $modus==1? P(ascender)
+    - $modus==2? P(72)
+    9228:
+    - $modus==1? P(null)
+    - $modus==2? P(72)
+    9229:
+    - $modus==1? P(ear)
+    - $modus==2? P(72)
+    9230:
+    - $modus==1? P(loop)
+    - $modus==2? P(72)
+    9231:
+    - $modus==1? P(null)
+    - $modus==2? P(72)
+
+#5 SBAEK
+    9232:
+    - $modus==1? P(spine)
+    - $modus==2? P(BRU)
+    9233:
+    - $modus==1? P(null)
+    - $modus==2? P(BRU)
+    9234:
+    - $modus==1? P(swash)
+    - $modus==2? P(BAS)
+    9235:
+    - $modus==1? P(bowl)
+    - $modus==2? P(BAS)
+    9236:
+    - $modus==1? P(null)
+    - $modus==2? P(BAS)
+    9237:
+    - $modus==1? P(crossbar)
+    - $modus==2? P(FU)
+    9238:
+    - $modus==1? P(null)
+    - $modus==2? P(FU)
+    9239:
+    - $modus==1? P(verticalbar)
+    - $modus==2? P(HE)
+    9240:
+    - $modus==1? P(null)
+    - $modus==2? P(HE)
+    9241:
+    - $modus==1? P(leg)
+    - $modus==2? P(GS)
+    9242:
+    - $modus==1? P(null)
+    - $modus==2? P(GS)
+
+#6 wn&1/2ye
+    9243:
+    - $modus==1? P(apex)
+    - $modus==2? P(HE)
+    9244:
+    - $modus==1? P(null)
+    - $modus==2? P(HE)
+    9245:
+    - $modus==1? P(aperture)
+    - $modus==2? P(FU)
+    9246:
+    - $modus==1? P(null)
+    - $modus==2? P(FU)
+    9247:
+    - $modus==1? P(ampersand)
+    - $modus==2? P(GO)
+    9248:
+    - $modus==1? P(null)
+    - $modus==2? P(GO)
+    9249:
+    - $modus==1? P(superscript)
+    - $modus==2? P(GO)
+    9250:
+    - $modus==1? P(subscript)
+    - $modus==2? P(GO)
+    9251:
+    - $modus==1? P(null)
+    - $modus==2? P(GO)
+    9252:
+    - $modus==1? P(crotch)
+    - $modus==2? P(GUL)
+    9253:
+    - $modus==1? P(tail)
+    - $modus==2? P(GUL)
+    9254:
+    - $modus==1? P(null)
+    - $modus==2? P(GUL)
+    9255:
+    - $modus==1? P(eye)
+    - $modus==2? P(GS)
+    9256:
+    - $modus==1? P(null)
+    - $modus==2? P(GS)
+
+#7 ohatgoi
+    9257:
+    - $modus==1? P(hairlinestroke)
+    - $modus==2? P(72)
+    9258:
+    - $modus==1? P(hairlinestroke)
+    - $modus==2? P(72)
+    9259:
+    - $modus==1? P(joint)
+    - $modus==2? P(BAG)
+    9260:
+    - $modus==1? P(null)
+    - $modus==2? P(BAG)
+    9261:
+    - $modus==1? P(terminal)
+    - $modus==2? P(GO)
+    9262:
+    - $modus==1? P(finial)
+    - $modus==2? P(GO)
+    9263:
+    - $modus==1? P(null)
+    - $modus==2? P(GO)
+    9264:
+    - $modus==1? P(crossbar)
+    - $modus==2? P(SN)
+    9265:
+    - $modus==1? P(terminal)
+    - $modus==2? P(SN)
+    9266:
+    - $modus==1? P(null)
+    - $modus==2? P(SN)
+    9267:
+    - $modus==1? P(ear)
+    - $modus==2? P(BAS)
+    9268:
+    - $modus==1? P(neck)
+    - $modus==2? P(BAS)
+    9269:
+    - $modus==1? P(null)
+    - $modus==2? P(BAS)
+    9270:
+    - $modus==1? P(axis)
+    - $modus==2? P(72)
+    9271:
+    - $modus==1? P(axis)
+    - $modus==2? P(72)
+    9272:
+    - $modus==1? P(tittle)
+    - $modus==2? P(GUL)
+    9273:
+    - $modus==1? P(null)
+    - $modus==2? P(GUL)
+
+#8 atymperfi
+    9274:
+    - $modus==1? P(bowl)
+    - $modus==2? P(GUL)
+    9275:
+    - $modus==1? P(null)
+    - $modus==2? P(GUL)
+    9276:
+    - $modus==1? P(apex)
+    - $modus==2? P(FU)
+    9277:
+    - $modus==1? P(ear)
+    - $modus==2? P(FU)
+    9279:
+    - $modus==1? P(diagonalstroke)
+    - $modus==2? P(72)
+    9280:
+    - $modus==1? P(ballterminal)
+    - $modus==2? P(72)
+    9282:
+    - $modus==1? P(arc)
+    - $modus==2? P(HE)
+    9283:
+    - $modus==1? P(null)
+    - $modus==2? P(HE)
+    9284:
+    - $modus==1? P(lobe)
+    - $modus==2? P(BAS)
+    9285:
+    - $modus==1? P(null)
+    - $modus==2? P(BAS)
+    9286:
+    - $modus==1? P(crossbar)
+    - $modus==2? P(GO)
+    9287:
+    - $modus==1? P(null)
+    - $modus==2? P(GO)
+    9288:
+    - $modus==1? P(serif)
+    - $modus==2? P(RO)
+    9289:
+    - $modus==1? P(null)
+    - $modus==2? P(RO)
+    9290:
+    - $modus==1? P(ligature)
+    - $modus==2? P(BAS)
+    9291:
+    - $modus==1? P(null)
+    - $modus==2? P(BAS)
+
+#Background_Grey
+    9299:
+    - $modus==1? P(Welcome)
+    - $modus==2? P(Welcome)
